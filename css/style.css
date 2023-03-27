@@ -1,0 +1,17 @@
+.logoboolean{
+    height: 50px;
+
+}
+header{
+    height: 80px;
+    background-image: url(../img/pattern.png);
+    background: cover;
+    background-color: rgb(78, 160, 255);
+    background-position: top;
+}
+p{
+    font-size: 0.8rem;
+}
+h1{
+    font-size: 40px;
+}
