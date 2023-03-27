@@ -1,16 +1,22 @@
 .logoboolean{
     height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 
 }
 header{
+    position: relative;
     height: 80px;
     background-image: url(../img/pattern.png);
-    background-size: cover;
+    background-size: 310px;
     background-color: rgb(78, 160, 255);
     background-repeat: repeat;
 }
 h1{
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 200px;
 }
 p{
     font-size: 0.8rem;
@@ -26,6 +32,8 @@ h1{
     font-weight: lighter;
 }
 .autore-articolo{
+    margin-top: 0;
+    margin-bottom: 15px;
     color: grey;
     font-size: 15px;
 }
