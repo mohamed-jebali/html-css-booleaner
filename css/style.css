@@ -5,13 +5,30 @@
 header{
     height: 80px;
     background-image: url(../img/pattern.png);
-    background: cover;
+    background-size: cover;
     background-color: rgb(78, 160, 255);
-    background-position: top;
+    background-repeat: repeat;
+}
+h1{
+    margin: 0;
 }
 p{
     font-size: 0.8rem;
 }
 h1{
     font-size: 40px;
+}
+.imagetext{
+    margin: 0;
+}
+#autore-boolean{
+    color: rgb(78, 160, 255);
+    font-weight: lighter;
+}
+.autore-articolo{
+    color: grey;
+    font-size: 15px;
+}
+.data{
+    font-size: 12px;
 }
